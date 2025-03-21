@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Camargos</title>
+</head>
+<body>
+
+    
+    <p id="meu-parágrafo"> parágrafo </p>
+
+    
+    <button id="meu-botão">Clique para alterar o texto</button>
+
+    
+    <script>
+        // Seleciona o parágrafo e o botão pelo ID
+        var paragrafo = document.getElementById("meu-parágrafo");
+        var botao = document.getElementById("meu-botão");
+
+        // Adiciona o evento de clique no botão
+        botao.addEventListener("click", function() {
+            
+            paragrafo.textContent = "Texto alterado!";
+        });
+    </script>
+
+</body>
+</html>
